@@ -1,0 +1,256 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x10_Female J3
+U 1 1 61BB9F68
+P 1850 1350
+F 0 "J3" H 1878 1326 50  0000 L CNN
+F 1 "Conn_01x10_Female" H 1878 1235 50  0000 L CNN
+F 2 "ao_tht:PinSocket_1x10_P2.54mm_Vertical" H 1850 1350 50  0001 C CNN
+F 3 "~" H 1850 1350 50  0001 C CNN
+	1    1850 1350
+	1    0    0    -1  
+$EndComp
+Text Label 1650 950  2    50   ~ 0
+Acv
+Text Label 1650 1050 2    50   ~ 0
+Dcv
+Text Label 1650 1150 2    50   ~ 0
+Scv
+Text Label 1650 1250 2    50   ~ 0
+Rcv
+Text Label 1650 1350 2    50   ~ 0
+Trigger
+Text Label 1650 1450 2    50   ~ 0
+Gate
+Text Label 1650 1550 2    50   ~ 0
+Out
+Text Label 1650 1650 2    50   ~ 0
+EocOut
+$Comp
+L power:GND #PWR03
+U 1 1 61BBB54A
+P 1650 1850
+F 0 "#PWR03" H 1650 1600 50  0001 C CNN
+F 1 "GND" H 1655 1677 50  0000 C CNN
+F 2 "" H 1650 1850 50  0001 C CNN
+F 3 "" H 1650 1850 50  0001 C CNN
+	1    1650 1850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1650 1750
+$Comp
+L Connector:AudioJack2_SwitchT J1
+U 1 1 61BBBF1D
+P 3350 1300
+F 0 "J1" H 3170 1233 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 3170 1324 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 3350 1300 50  0001 C CNN
+F 3 "~" H 3350 1300 50  0001 C CNN
+	1    3350 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J2
+U 1 1 61BBCAD6
+P 4850 1300
+F 0 "J2" H 4670 1233 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 4670 1324 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 4850 1300 50  0001 C CNN
+F 3 "~" H 4850 1300 50  0001 C CNN
+	1    4850 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J4
+U 1 1 61BBF0FE
+P 3350 2000
+F 0 "J4" H 3170 1933 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 3170 2024 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 3350 2000 50  0001 C CNN
+F 3 "~" H 3350 2000 50  0001 C CNN
+	1    3350 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J5
+U 1 1 61BBF104
+P 4850 2000
+F 0 "J5" H 4670 1933 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 4670 2024 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 4850 2000 50  0001 C CNN
+F 3 "~" H 4850 2000 50  0001 C CNN
+	1    4850 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J6
+U 1 1 61BBFB4A
+P 3350 2650
+F 0 "J6" H 3170 2583 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 3170 2674 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 3350 2650 50  0001 C CNN
+F 3 "~" H 3350 2650 50  0001 C CNN
+	1    3350 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J7
+U 1 1 61BBFB50
+P 4850 2650
+F 0 "J7" H 4670 2583 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 4670 2674 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 4850 2650 50  0001 C CNN
+F 3 "~" H 4850 2650 50  0001 C CNN
+	1    4850 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J8
+U 1 1 61BC09A0
+P 3350 3350
+F 0 "J8" H 3170 3283 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 3170 3374 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 3350 3350 50  0001 C CNN
+F 3 "~" H 3350 3350 50  0001 C CNN
+	1    3350 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J9
+U 1 1 61BC09A6
+P 4850 3350
+F 0 "J9" H 4670 3283 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 4670 3374 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 4850 3350 50  0001 C CNN
+F 3 "~" H 4850 3350 50  0001 C CNN
+	1    4850 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 61BC0A1A
+P 3150 1400
+F 0 "#PWR01" H 3150 1150 50  0001 C CNN
+F 1 "GND" H 3155 1227 50  0000 C CNN
+F 2 "" H 3150 1400 50  0001 C CNN
+F 3 "" H 3150 1400 50  0001 C CNN
+	1    3150 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 61BC1176
+P 4650 1400
+F 0 "#PWR02" H 4650 1150 50  0001 C CNN
+F 1 "GND" H 4655 1227 50  0000 C CNN
+F 2 "" H 4650 1400 50  0001 C CNN
+F 3 "" H 4650 1400 50  0001 C CNN
+	1    4650 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 61BC1BCF
+P 4650 2100
+F 0 "#PWR05" H 4650 1850 50  0001 C CNN
+F 1 "GND" H 4655 1927 50  0000 C CNN
+F 2 "" H 4650 2100 50  0001 C CNN
+F 3 "" H 4650 2100 50  0001 C CNN
+	1    4650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 61BC210C
+P 4650 2750
+F 0 "#PWR07" H 4650 2500 50  0001 C CNN
+F 1 "GND" H 4655 2577 50  0000 C CNN
+F 2 "" H 4650 2750 50  0001 C CNN
+F 3 "" H 4650 2750 50  0001 C CNN
+	1    4650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 61BC258F
+P 4650 3450
+F 0 "#PWR09" H 4650 3200 50  0001 C CNN
+F 1 "GND" H 4655 3277 50  0000 C CNN
+F 2 "" H 4650 3450 50  0001 C CNN
+F 3 "" H 4650 3450 50  0001 C CNN
+	1    4650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 61BC2AB2
+P 3150 3450
+F 0 "#PWR08" H 3150 3200 50  0001 C CNN
+F 1 "GND" H 3155 3277 50  0000 C CNN
+F 2 "" H 3150 3450 50  0001 C CNN
+F 3 "" H 3150 3450 50  0001 C CNN
+	1    3150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 61BC2F5B
+P 3150 2750
+F 0 "#PWR06" H 3150 2500 50  0001 C CNN
+F 1 "GND" H 3155 2577 50  0000 C CNN
+F 2 "" H 3150 2750 50  0001 C CNN
+F 3 "" H 3150 2750 50  0001 C CNN
+	1    3150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 61BC356D
+P 3150 2100
+F 0 "#PWR04" H 3150 1850 50  0001 C CNN
+F 1 "GND" H 3155 1927 50  0000 C CNN
+F 2 "" H 3150 2100 50  0001 C CNN
+F 3 "" H 3150 2100 50  0001 C CNN
+	1    3150 2100
+	1    0    0    -1  
+$EndComp
+Text Label 3150 1300 2    50   ~ 0
+Acv
+Text Label 3150 2000 2    50   ~ 0
+Dcv
+Text Label 3150 2650 2    50   ~ 0
+Scv
+Text Label 3150 3350 2    50   ~ 0
+Rcv
+NoConn ~ 3150 1200
+NoConn ~ 3150 1900
+NoConn ~ 3150 2550
+NoConn ~ 3150 3250
+Text Label 4650 3350 2    50   ~ 0
+Out
+Text Label 4650 2650 2    50   ~ 0
+EocOut
+NoConn ~ 4650 2550
+NoConn ~ 4650 3250
+Text Label 4650 1300 2    50   ~ 0
+Gate
+Text Label 4650 1900 2    50   ~ 0
+Gate
+Text Label 4650 2000 2    50   ~ 0
+Trigger
+NoConn ~ 3350 1850
+$EndSCHEMATC
