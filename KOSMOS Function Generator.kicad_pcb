@@ -4780,7 +4780,7 @@
     )
   )
 
-  (gr_text "Function Generator v 0.2 Oct 2021 Studio 6 + 1" (at 40.64 19.05) (layer F.SilkS)
+  (gr_text "Function Generator v 0.3 Nov 2021 Studio 6 + 1" (at 40.64 19.05) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 19.43 142.24) (end 19.43 16.68) (layer Edge.Cuts) (width 0.05) (tstamp 613DD53A))
@@ -6048,7 +6048,7 @@
   (segment (start 48.8315 42.799) (end 41.9735 42.799) (width 0.25) (layer F.Cu) (net 78))
   (segment (start 38.6715 46.101) (end 32.1945 46.101) (width 0.25) (layer F.Cu) (net 78))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 6156F131) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 6190497D) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -8071,7 +8071,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 6156F12E) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 6190497A) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
